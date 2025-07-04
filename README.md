@@ -85,6 +85,8 @@ docker run --rm \
 
 `./vendor/bin/sail artisan migrate`
 
+`./vendor/bin/sail artisan migrate:fresh --seed`
+
 -`./vendor/bin/sail mysql -e "CREATE DATABASE IF NOT EXISTS testing;"`
 
 ### Kickstart the nuxt frontend
