@@ -25,7 +25,7 @@ class RecipeTest extends TestCase
 
     private RecipeSearchInterface $searchRepository;
 
-    public function implementations(): array
+    public static function implementations(): array
     {
         return [
             'Eloquent implementation' => [
